@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-bottom: 50px;
     padding: 10px;
-    width: 300px;
+    width: 400px;
     height: 100%;
     margin-top: 0;
     /* background-color: green; */
@@ -16,10 +16,10 @@
 .item{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
     background-color: #CDD5C6;
     border-radius: 4px;
-    padding: 10px;
+    padding: 25px;
     margin-bottom: 10px;
     box-shadow: 1px 6px 16px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
