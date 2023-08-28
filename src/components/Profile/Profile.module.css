@@ -5,7 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
-  width: 500px;
+  width: 400px;
   background-color: #CDD5C6;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
@@ -59,7 +59,7 @@
     padding: 0;
     justify-content: space-around;
     
-    height: 100px;
+    height: 90px;
     background-color:#FBF2ED;
 
     list-style: none;
