@@ -1,8 +1,8 @@
 
 import css from './TransactionHistory.module.css';
 
-export const TransactionHistory = ( items ) => {
-  console.dir( items.transactions );
+export const TransactionHistory = (items) => {
+  
     return (
       <table className={css.transaction_history}>
         <thead>

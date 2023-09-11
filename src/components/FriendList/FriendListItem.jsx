@@ -9,10 +9,10 @@ export const FriendListItem = ({ id, avatar, name, isOnline }) => {
         <span className={css.status}>
           <GoDotFill
             className={isOnline ? css.online : css.isnotOnline}
-            size={50}
+            size={40}
           />
         </span>
-        <img className={css.avatar} src={avatar} alt={name} width="68" />
+        <img className={css.avatar} src={avatar} alt={name} width="60" />
         <p className={css.name}>{name}</p>
       </li>
     );
@@ -29,3 +29,5 @@ FriendListItem.propTypes = {
     })
   ),
 };
+
+
