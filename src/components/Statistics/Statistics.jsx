@@ -1,5 +1,6 @@
 import css from './Statistics.module.css';
 import { getRandomHexColor } from '../../utils/getRandomHexColor';
+import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
 
@@ -20,4 +21,19 @@ export const Statistics = ({ title, stats }) => {
       </ul>
     </section>
   );
+};
+
+Statistics.propTypes = {
+  title: PropTypes.number.isRequired,
+  stats: PropTypes.shape({
+    username: PropTypes.string,
+    tag: PropTypes.string,
+    location: PropTypes.string,
+    avatar: PropTypes.string,
+    stats: PropTypes.exact({
+      followers: PropTypes.number,
+      views: PropTypes.number,
+      likes: PropTypes.number,
+    }),
+  }),
 };
